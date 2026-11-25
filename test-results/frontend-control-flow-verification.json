@@ -1,0 +1,33 @@
+{
+  "scope": "Extracted current JS functions, controlled promises and DOM substitutes; not browser or touch verification",
+  "source": "web/index.html",
+  "source_sha256": "caaf7914bc2c8673d2979ed43c05cb7de1e5cad5cde96f1883b36208a63a3b95",
+  "checks": [
+    {
+      "name": "Late Next response does not render over a newer view",
+      "status": "passed"
+    },
+    {
+      "name": "Practise Collection preserves newly selected collection after dialog close",
+      "status": "passed"
+    },
+    {
+      "name": "Deleted selected Collection is not reintroduced by stale underlying checkboxes",
+      "status": "passed"
+    },
+    {
+      "name": "NEW validates its effective filter without hidden Review conditions",
+      "status": "passed"
+    },
+    {
+      "name": "Late submit success does not replace a newer draft at the same Session position",
+      "status": "passed"
+    },
+    {
+      "name": "Late submit failure does not paint error on another quiz",
+      "status": "passed"
+    }
+  ],
+  "passed": 6,
+  "failed": 0
+}

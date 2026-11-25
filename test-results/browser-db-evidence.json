@@ -1,0 +1,570 @@
+{
+  "captured_at_utc": "2026-11-04T14:40:06.069980+00:00",
+  "scope": "Read-only evidence from synthetic browser QA database, not a shipped learning DB",
+  "tables": [
+    {
+      "name": "action_logs"
+    },
+    {
+      "name": "attempt_logs"
+    },
+    {
+      "name": "collection_items"
+    },
+    {
+      "name": "collections"
+    },
+    {
+      "name": "question_specs"
+    },
+    {
+      "name": "session_questions"
+    },
+    {
+      "name": "sessions"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_id": 1,
+      "session_id": 1,
+      "position": 1,
+      "outcome": "unknown",
+      "selected_corpus_id": null,
+      "answer_text": null,
+      "recalled": null,
+      "correct": 0,
+      "confidence": null,
+      "response_time_ms": 265,
+      "question_id": 1,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "parameters": "187,2277,2641,3583",
+      "action_id": 70,
+      "occurred_at": 1793801658135,
+      "event": "unknown"
+    },
+    {
+      "attempt_id": 2,
+      "session_id": 1,
+      "position": 2,
+      "outcome": "answered",
+      "selected_corpus_id": 336,
+      "answer_text": null,
+      "recalled": null,
+      "correct": 1,
+      "confidence": 0,
+      "response_time_ms": 4461,
+      "question_id": 2,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "parameters": "336,1867,3312,229",
+      "action_id": 74,
+      "occurred_at": 1793801681081,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 3,
+      "session_id": 2,
+      "position": 1,
+      "outcome": "answered",
+      "selected_corpus_id": 261,
+      "answer_text": null,
+      "recalled": null,
+      "correct": 1,
+      "confidence": 100,
+      "response_time_ms": 218735,
+      "question_id": 3,
+      "quiz_type": "word_recall",
+      "variant": "jp_to_en",
+      "parameters": "261,3042,3919,5292",
+      "action_id": 99,
+      "occurred_at": 1793802089013,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 4,
+      "session_id": 3,
+      "position": 1,
+      "outcome": "answered",
+      "selected_corpus_id": 187,
+      "answer_text": null,
+      "recalled": null,
+      "correct": 1,
+      "confidence": null,
+      "response_time_ms": 10174,
+      "question_id": 1,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "parameters": "187,2277,2641,3583",
+      "action_id": 128,
+      "occurred_at": 1793802195023,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 5,
+      "session_id": 4,
+      "position": 1,
+      "outcome": "answered",
+      "selected_corpus_id": null,
+      "answer_text": "ABANDON",
+      "recalled": null,
+      "correct": 1,
+      "confidence": null,
+      "response_time_ms": 4814,
+      "question_id": 4,
+      "quiz_type": "cloze",
+      "variant": null,
+      "parameters": "2,10,7",
+      "action_id": 139,
+      "occurred_at": 1793802209777,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 6,
+      "session_id": 5,
+      "position": 1,
+      "outcome": "answered",
+      "selected_corpus_id": null,
+      "answer_text": null,
+      "recalled": 0,
+      "correct": null,
+      "confidence": null,
+      "response_time_ms": 7732,
+      "question_id": 5,
+      "quiz_type": "reading_review",
+      "variant": "word_and_example",
+      "parameters": "2",
+      "action_id": 150,
+      "occurred_at": 1793802260265,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 7,
+      "session_id": 6,
+      "position": 1,
+      "outcome": "answered",
+      "selected_corpus_id": null,
+      "answer_text": null,
+      "recalled": 1,
+      "correct": null,
+      "confidence": 100,
+      "response_time_ms": 101968,
+      "question_id": 6,
+      "quiz_type": "reading_review",
+      "variant": "jp_and_example",
+      "parameters": "271",
+      "action_id": 182,
+      "occurred_at": 1793802586388,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 8,
+      "session_id": 6,
+      "position": 2,
+      "outcome": "answered",
+      "selected_corpus_id": null,
+      "answer_text": null,
+      "recalled": 0,
+      "correct": null,
+      "confidence": 0,
+      "response_time_ms": 43081,
+      "question_id": 7,
+      "quiz_type": "reading_review",
+      "variant": "jp_and_example",
+      "parameters": "381",
+      "action_id": 186,
+      "occurred_at": 1793802629774,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 9,
+      "session_id": 7,
+      "position": 1,
+      "outcome": "answered",
+      "selected_corpus_id": 5247,
+      "answer_text": null,
+      "recalled": null,
+      "correct": 0,
+      "confidence": null,
+      "response_time_ms": 22762,
+      "question_id": 8,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "parameters": "310,1519,1558,5247",
+      "action_id": 223,
+      "occurred_at": 1793802797376,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 10,
+      "session_id": 7,
+      "position": 1,
+      "outcome": "answered",
+      "selected_corpus_id": 310,
+      "answer_text": null,
+      "recalled": null,
+      "correct": 1,
+      "confidence": null,
+      "response_time_ms": 575,
+      "question_id": 8,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "parameters": "310,1519,1558,5247",
+      "action_id": 226,
+      "occurred_at": 1793802806826,
+      "event": "submit"
+    },
+    {
+      "attempt_id": 11,
+      "session_id": 8,
+      "position": 1,
+      "outcome": "unknown",
+      "selected_corpus_id": null,
+      "answer_text": null,
+      "recalled": null,
+      "correct": 0,
+      "confidence": null,
+      "response_time_ms": 17721,
+      "question_id": 9,
+      "quiz_type": "cloze",
+      "variant": null,
+      "parameters": "2,10,7",
+      "action_id": 244,
+      "occurred_at": 1793802846681,
+      "event": "unknown"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": 1,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "source_mode": "new",
+      "filter_spec": "1,2,7,1,1,12,1,2",
+      "current_position": 2,
+      "status": "completed",
+      "question_ids": "1,2"
+    },
+    {
+      "session_id": 2,
+      "quiz_type": "word_recall",
+      "variant": "jp_to_en",
+      "source_mode": "new",
+      "filter_spec": "1,2,7,1,1,12,1,1",
+      "current_position": 1,
+      "status": "completed",
+      "question_ids": "3"
+    },
+    {
+      "session_id": 3,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "source_mode": "review",
+      "filter_spec": "1,3,7,1,1,8,1,3,12,1,1",
+      "current_position": 1,
+      "status": "completed",
+      "question_ids": "1"
+    },
+    {
+      "session_id": 4,
+      "quiz_type": "cloze",
+      "variant": null,
+      "source_mode": "new",
+      "filter_spec": "1,3,1,7,97,98,97,110,100,111,110,7,1,1,12,1,1",
+      "current_position": 1,
+      "status": "completed",
+      "question_ids": "4"
+    },
+    {
+      "session_id": 5,
+      "quiz_type": "reading_review",
+      "variant": "word_and_example",
+      "source_mode": "new",
+      "filter_spec": "1,3,1,7,97,98,97,110,100,111,110,7,1,1,12,1,1",
+      "current_position": 1,
+      "status": "completed",
+      "question_ids": "5"
+    },
+    {
+      "session_id": 6,
+      "quiz_type": "reading_review",
+      "variant": "jp_and_example",
+      "source_mode": "new",
+      "filter_spec": "1,2,7,1,1,12,1,2",
+      "current_position": 2,
+      "status": "completed",
+      "question_ids": "6,7"
+    },
+    {
+      "session_id": 7,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "source_mode": "new",
+      "filter_spec": "1,2,7,1,1,12,1,1",
+      "current_position": 1,
+      "status": "completed",
+      "question_ids": "8"
+    },
+    {
+      "session_id": 8,
+      "quiz_type": "cloze",
+      "variant": null,
+      "source_mode": "new",
+      "filter_spec": "1,3,1,7,97,98,97,110,100,111,110,7,1,1,12,1,1",
+      "current_position": 1,
+      "status": "completed",
+      "question_ids": "9"
+    },
+    {
+      "session_id": 9,
+      "quiz_type": "word_recall",
+      "variant": "en_to_jp",
+      "source_mode": "review",
+      "filter_spec": "1,2,6,1,2,12,1,20",
+      "current_position": 1,
+      "status": "paused",
+      "question_ids": "2"
+    }
+  ],
+  "collections": [
+    {
+      "collection_id": 1,
+      "name": "QA vocabulary",
+      "kind": "vocabulary"
+    },
+    {
+      "collection_id": 2,
+      "name": "QA questions",
+      "kind": "question"
+    }
+  ],
+  "collection_items": [
+    {
+      "item_id": 2,
+      "collection_id": 1,
+      "corpus_id": 453,
+      "question_id": null
+    },
+    {
+      "item_id": 3,
+      "collection_id": 2,
+      "corpus_id": null,
+      "question_id": 2
+    }
+  ],
+  "event_counts": [
+    {
+      "event": "activity_start",
+      "count": 4
+    },
+    {
+      "event": "add",
+      "count": 3
+    },
+    {
+      "event": "choose",
+      "count": 29
+    },
+    {
+      "event": "close",
+      "count": 20
+    },
+    {
+      "event": "confidence",
+      "count": 4
+    },
+    {
+      "event": "create",
+      "count": 2
+    },
+    {
+      "event": "created",
+      "count": 9
+    },
+    {
+      "event": "enter",
+      "count": 46
+    },
+    {
+      "event": "filter",
+      "count": 18
+    },
+    {
+      "event": "hidden",
+      "count": 3
+    },
+    {
+      "event": "leave",
+      "count": 45
+    },
+    {
+      "event": "next",
+      "count": 3
+    },
+    {
+      "event": "open",
+      "count": 20
+    },
+    {
+      "event": "previous",
+      "count": 1
+    },
+    {
+      "event": "remove",
+      "count": 1
+    },
+    {
+      "event": "repeat",
+      "count": 1
+    },
+    {
+      "event": "resume",
+      "count": 1
+    },
+    {
+      "event": "reveal",
+      "count": 35
+    },
+    {
+      "event": "search",
+      "count": 6
+    },
+    {
+      "event": "session_start",
+      "count": 9
+    },
+    {
+      "event": "submit",
+      "count": 9
+    },
+    {
+      "event": "unknown",
+      "count": 2
+    }
+  ],
+  "unlinked_attempts": [],
+  "answer_actions": [
+    {
+      "action_id": 70,
+      "occurred_at": 1793801658135,
+      "activity_id": 1,
+      "screen": "word_recall",
+      "event": "unknown",
+      "target": "question:00000001",
+      "value": null,
+      "session_id": 1,
+      "attempt_id": 1
+    },
+    {
+      "action_id": 74,
+      "occurred_at": 1793801681081,
+      "activity_id": 1,
+      "screen": "word_recall",
+      "event": "submit",
+      "target": "question:00000002",
+      "value": null,
+      "session_id": 1,
+      "attempt_id": 2
+    },
+    {
+      "action_id": 99,
+      "occurred_at": 1793802089013,
+      "activity_id": 2,
+      "screen": "word_recall",
+      "event": "submit",
+      "target": "question:00000003",
+      "value": null,
+      "session_id": 2,
+      "attempt_id": 3
+    },
+    {
+      "action_id": 128,
+      "occurred_at": 1793802195023,
+      "activity_id": 2,
+      "screen": "word_recall",
+      "event": "submit",
+      "target": "question:00000001",
+      "value": null,
+      "session_id": 3,
+      "attempt_id": 4
+    },
+    {
+      "action_id": 139,
+      "occurred_at": 1793802209777,
+      "activity_id": 2,
+      "screen": "cloze_test",
+      "event": "submit",
+      "target": "question:00000004",
+      "value": null,
+      "session_id": 4,
+      "attempt_id": 5
+    },
+    {
+      "action_id": 150,
+      "occurred_at": 1793802260265,
+      "activity_id": 2,
+      "screen": "reading_review",
+      "event": "submit",
+      "target": "question:00000005",
+      "value": null,
+      "session_id": 5,
+      "attempt_id": 6
+    },
+    {
+      "action_id": 182,
+      "occurred_at": 1793802586388,
+      "activity_id": 3,
+      "screen": "reading_review",
+      "event": "submit",
+      "target": "question:00000006",
+      "value": null,
+      "session_id": 6,
+      "attempt_id": 7
+    },
+    {
+      "action_id": 186,
+      "occurred_at": 1793802629774,
+      "activity_id": 3,
+      "screen": "reading_review",
+      "event": "submit",
+      "target": "question:00000007",
+      "value": null,
+      "session_id": 6,
+      "attempt_id": 8
+    },
+    {
+      "action_id": 223,
+      "occurred_at": 1793802797376,
+      "activity_id": 4,
+      "screen": "word_recall",
+      "event": "submit",
+      "target": "question:00000008",
+      "value": null,
+      "session_id": 7,
+      "attempt_id": 9
+    },
+    {
+      "action_id": 226,
+      "occurred_at": 1793802806826,
+      "activity_id": 4,
+      "screen": "word_recall",
+      "event": "submit",
+      "target": "question:00000008",
+      "value": null,
+      "session_id": 7,
+      "attempt_id": 10
+    },
+    {
+      "action_id": 244,
+      "occurred_at": 1793802846681,
+      "activity_id": 4,
+      "screen": "cloze_test",
+      "event": "unknown",
+      "target": "question:00000009",
+      "value": null,
+      "session_id": 8,
+      "attempt_id": 11
+    }
+  ]
+}

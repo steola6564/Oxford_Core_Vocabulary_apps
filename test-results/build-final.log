@@ -1,0 +1,4 @@
+CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -buildvcs=false -mod=vendor -trimpath -tags sqlite_omit_load_extension,netgo,osusergo -ldflags='-s -w -linkmode external -extldflags "-static"' -o bin/oxford-core-linux-amd64 .
+Exit status: 0
+/workspace/scratch/4f75d3fd397b/oxford-core-vocabulary/bin/oxford-core-linux-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8a9fee704611194231292462f30cef521dbf4ecf, for GNU/Linux 3.2.0, stripped
+Exact current index.html embedded: true (128443 bytes)

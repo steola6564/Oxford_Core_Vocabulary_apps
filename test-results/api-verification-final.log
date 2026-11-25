@@ -1,0 +1,16 @@
+[PASSED] Startup / seven tables / nine Action columns / embedded HTML
+[PASSED] Authoritative CSV / stable IDs / comma-containing cell
+[PASSED] Independent NFKC search oracle and full pagination
+[PASSED] Filter encoding examples and raw Unicode round trip
+[PASSED] Recall both directions / correctness / NULL and zero / Unknown
+[PASSED] Cloze exact span, original input, all generated bounds
+[PASSED] Reading two variants and subjective-only outcomes
+[PASSED] Skipped movement, completion and nonmutating Resume
+[PASSED] Review historical incorrect and outcome distinctions
+[PASSED] History conditions intersect on the same Attempt
+[PASSED] All implemented filter tags and Review initial-letter constraint
+[PASSED] Collections warning, multiplicity, individual deletion, spec reuse
+[PASSED] Action batching, timestamps, links, Data and bounded usage evidence
+[PASSED] Invalid submissions and deferred generation do not create rows
+[PASSED] Real process restart preserves DB, Session and history
+{"status": "passed", "passed": 15, "failed": 0, "duration_seconds": 0.994}

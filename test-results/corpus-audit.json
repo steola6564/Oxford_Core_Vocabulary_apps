@@ -1,0 +1,1407 @@
+{
+  "sha256": "9c871e809b082836339c665aa611476602301f3e6425eca0ded34185d8093f72",
+  "header": [
+    "ID",
+    "WORD",
+    "POS",
+    "LEVEL",
+    "SECTION",
+    "JP",
+    "EXAMPLE"
+  ],
+  "record_count": 6100,
+  "distinct_word_count": 5112,
+  "distinct_word_pos_count": 6100,
+  "ids_sequential_1_6100": true,
+  "level_counts": {
+    "3000": 3811,
+    "": 151,
+    "5000": 2138
+  },
+  "pos_counts": {
+    "indefinite article": 1,
+    "verb": 1275,
+    "noun": 3018,
+    "adjective": 1119,
+    "adverb": 391,
+    "preposition": 66,
+    "conjunction": 32,
+    "exclam": 20,
+    "determiner": 42,
+    "pronoun": 77,
+    "auxiliary verb": 3,
+    "linking verb": 1,
+    "number": 38,
+    "modal verb": 15,
+    "definite article": 1,
+    "infinitive marker": 1
+  },
+  "section_counts": {
+    "": 4591,
+    "S4": 119,
+    "W5": 114,
+    "W11": 100,
+    "W3": 124,
+    "W6": 107,
+    "S5": 115,
+    "W8": 108,
+    "S2": 116,
+    "W9": 107,
+    "S3": 117,
+    "W10": 105,
+    "W4": 114,
+    "W12": 101,
+    "S6": 113,
+    "W7": 113,
+    "S1": 120,
+    "W1": 121,
+    "W2": 115
+  },
+  "initial_counts": {
+    "A": 424,
+    "B": 288,
+    "C": 631,
+    "D": 368,
+    "E": 325,
+    "F": 295,
+    "G": 146,
+    "H": 189,
+    "I": 271,
+    "J": 38,
+    "K": 29,
+    "L": 234,
+    "M": 285,
+    "N": 130,
+    "O": 168,
+    "P": 472,
+    "Q": 27,
+    "R": 362,
+    "S": 693,
+    "T": 336,
+    "U": 92,
+    "V": 81,
+    "W": 193,
+    "Y": 21,
+    "Z": 2
+  },
+  "missing_jp": 0,
+  "missing_example": 0,
+  "no_literal_word_in_example_count": 148,
+  "no_literal_word_in_example": [
+    {
+      "ID": "1",
+      "WORD": "a, an",
+      "POS": "indefinite article",
+      "EXAMPLE": "A visitor left an umbrella by the door, but nobody knew whose it was."
+    },
+    {
+      "ID": "315",
+      "WORD": "arise",
+      "POS": "verb",
+      "EXAMPLE": "Questions arose when the final bill arrived without a list of charges."
+    },
+    {
+      "ID": "453",
+      "WORD": "bank (money)",
+      "POS": "noun",
+      "EXAMPLE": "The bank sent a letter explaining the change to our account."
+    },
+    {
+      "ID": "454",
+      "WORD": "bank (river)",
+      "POS": "noun",
+      "EXAMPLE": "We sat on the bank and watched the river carry leaves downstream."
+    },
+    {
+      "ID": "473",
+      "WORD": "bass¹",
+      "POS": "noun",
+      "EXAMPLE": "The bass was so loud that the glasses on the shelf began to shake."
+    },
+    {
+      "ID": "483",
+      "WORD": "be",
+      "POS": "auxiliary verb",
+      "EXAMPLE": "The children are building a bridge out of wooden blocks."
+    },
+    {
+      "ID": "484",
+      "WORD": "be",
+      "POS": "verb",
+      "EXAMPLE": "The room is quiet now that the visitors have left."
+    },
+    {
+      "ID": "488",
+      "WORD": "bear (animal)",
+      "POS": "noun",
+      "EXAMPLE": "The bear stood beside the stream, watching the water move past."
+    },
+    {
+      "ID": "489",
+      "WORD": "bear (deal with)",
+      "POS": "verb",
+      "EXAMPLE": "I couldn't bear the noise, so I moved to a quieter room."
+    },
+    {
+      "ID": "496",
+      "WORD": "become",
+      "POS": "linking verb",
+      "EXAMPLE": "The room became quiet when the speaker stepped towards the microphone."
+    },
+    {
+      "ID": "497",
+      "WORD": "become",
+      "POS": "verb",
+      "EXAMPLE": "She became a teacher after working for several years in a museum."
+    },
+    {
+      "ID": "596",
+      "WORD": "blow",
+      "POS": "verb",
+      "EXAMPLE": "The wind blew the letter off the table and into the garden."
+    },
+    {
+      "ID": "635",
+      "WORD": "bow¹",
+      "POS": "noun",
+      "EXAMPLE": "The dancer took a bow while the audience continued clapping."
+    },
+    {
+      "ID": "636",
+      "WORD": "bow¹",
+      "POS": "verb",
+      "EXAMPLE": "He bowed to the audience, then carefully stepped over the microphone cable."
+    },
+    {
+      "ID": "688",
+      "WORD": "build",
+      "POS": "verb",
+      "EXAMPLE": "They built a small shelter from the wood left over after the repairs."
+    },
+    {
+      "ID": "699",
+      "WORD": "bury",
+      "POS": "verb",
+      "EXAMPLE": "The children buried a box of letters beneath the tree."
+    },
+    {
+      "ID": "709",
+      "WORD": "buy",
+      "POS": "verb",
+      "EXAMPLE": "We bought the smaller table because it left room to move around."
+    },
+    {
+      "ID": "733",
+      "WORD": "can¹",
+      "POS": "modal verb",
+      "EXAMPLE": "You can leave your coat here while you look around the exhibition."
+    },
+    {
+      "ID": "734",
+      "WORD": "can²",
+      "POS": "noun",
+      "EXAMPLE": "An empty can rolled across the pavement in the wind."
+    },
+    {
+      "ID": "780",
+      "WORD": "catch",
+      "POS": "verb",
+      "EXAMPLE": "She caught the cup just before it fell from the edge of the table."
+    },
+    {
+      "ID": "902",
+      "WORD": "classify",
+      "POS": "verb",
+      "EXAMPLE": "We classified the photographs by location rather than by the people in them."
+    },
+    {
+      "ID": "919",
+      "WORD": "cling",
+      "POS": "verb",
+      "EXAMPLE": "The child clung to his father's hand while the crowd moved past."
+    },
+    {
+      "ID": "924",
+      "WORD": "close¹",
+      "POS": "noun",
+      "EXAMPLE": "At the close of the meeting, everyone helped put the chairs away."
+    },
+    {
+      "ID": "925",
+      "WORD": "close¹",
+      "POS": "verb",
+      "EXAMPLE": "Close the window before the rain reaches the books on the sill."
+    },
+    {
+      "ID": "926",
+      "WORD": "close²",
+      "POS": "adjective",
+      "EXAMPLE": "The station is close enough for us to walk there with our bags."
+    },
+    {
+      "ID": "927",
+      "WORD": "close²",
+      "POS": "adverb",
+      "EXAMPLE": "Come close so you can see the tiny marks on the shell."
+    },
+    {
+      "ID": "1154",
+      "WORD": "content¹",
+      "POS": "noun",
+      "EXAMPLE": "The contents of the drawer included keys, string and several unidentified screws."
+    },
+    {
+      "ID": "1155",
+      "WORD": "content²",
+      "POS": "adjective",
+      "EXAMPLE": "He was content to sit by the window while the others explored the garden."
+    },
+    {
+      "ID": "1243",
+      "WORD": "counter (argue against)",
+      "POS": "verb",
+      "EXAMPLE": "She countered his argument by showing that the cheaper option would need more maintenance."
+    },
+    {
+      "ID": "1244",
+      "WORD": "counter (long flat surface)",
+      "POS": "noun",
+      "EXAMPLE": "Leave the parcel on the counter while I find the receipt."
+    },
+    {
+      "ID": "1282",
+      "WORD": "creep",
+      "POS": "verb",
+      "EXAMPLE": "We crept along the corridor to avoid waking the sleeping children."
+    },
+    {
+      "ID": "1627",
+      "WORD": "do¹",
+      "POS": "auxiliary verb",
+      "EXAMPLE": "Do you know which key opens the cupboard by the stairs?"
+    },
+    {
+      "ID": "1628",
+      "WORD": "do¹",
+      "POS": "verb",
+      "EXAMPLE": "I will do the washing-up while you put the food away."
+    },
+    {
+      "ID": "1870",
+      "WORD": "entity",
+      "POS": "noun",
+      "EXAMPLE": "The two shops share a name but operate as separate legal entities."
+    },
+    {
+      "ID": "2434",
+      "WORD": "grave (for dead person)",
+      "POS": "noun",
+      "EXAMPLE": "Fresh flowers stood beside the grave beneath the old church wall."
+    },
+    {
+      "ID": "2435",
+      "WORD": "grave (serious)",
+      "POS": "adjective",
+      "EXAMPLE": "The missing records raised grave concerns about how the charity was managed."
+    },
+    {
+      "ID": "2452",
+      "WORD": "grocery",
+      "POS": "noun",
+      "EXAMPLE": "She carried the groceries home in two large cloth bags."
+    },
+    {
+      "ID": "2484",
+      "WORD": "half",
+      "POS": "noun",
+      "EXAMPLE": "Cut the orange into two halves before squeezing out the juice."
+    },
+    {
+      "ID": "2991",
+      "WORD": "kind (caring)",
+      "POS": "adjective",
+      "EXAMPLE": "It was kind of you to wait while I found my glasses."
+    },
+    {
+      "ID": "2992",
+      "WORD": "kind (type)",
+      "POS": "noun",
+      "EXAMPLE": "This kind of mushroom grows beneath the trees in our garden."
+    },
+    {
+      "ID": "3031",
+      "WORD": "last¹ (final)",
+      "POS": "adverb",
+      "EXAMPLE": "I arrived last, but someone had thoughtfully saved me a seat."
+    },
+    {
+      "ID": "3032",
+      "WORD": "last¹ (final)",
+      "POS": "determiner",
+      "EXAMPLE": "She took the last biscuit and offered to make another batch."
+    },
+    {
+      "ID": "3033",
+      "WORD": "last¹ (final)",
+      "POS": "noun",
+      "EXAMPLE": "That was the last of the coffee, so tea will have to do."
+    },
+    {
+      "ID": "3034",
+      "WORD": "last¹ (taking time)",
+      "POS": "verb",
+      "EXAMPLE": "The battery should last until evening if you keep the screen dim."
+    },
+    {
+      "ID": "3058",
+      "WORD": "lead¹",
+      "POS": "noun",
+      "EXAMPLE": "Our team took an early lead but lost it after half-time."
+    },
+    {
+      "ID": "3059",
+      "WORD": "lead¹",
+      "POS": "verb",
+      "EXAMPLE": "The narrow path leads to a gate behind the church."
+    },
+    {
+      "ID": "3121",
+      "WORD": "lie¹",
+      "POS": "verb",
+      "EXAMPLE": "I wanted to lie on the grass and watch the clouds."
+    },
+    {
+      "ID": "3122",
+      "WORD": "lie² (tell a lie)",
+      "POS": "noun",
+      "EXAMPLE": "One small lie about his age led to several awkward explanations."
+    },
+    {
+      "ID": "3123",
+      "WORD": "lie² (tell a lie)",
+      "POS": "verb",
+      "EXAMPLE": "There's no need to lie; tell them you forgot the appointment."
+    },
+    {
+      "ID": "3130",
+      "WORD": "light (from the sun/a lamp)",
+      "POS": "adjective",
+      "EXAMPLE": "The room stays light until evening because its windows face west."
+    },
+    {
+      "ID": "3131",
+      "WORD": "light (from the sun/a lamp)",
+      "POS": "noun",
+      "EXAMPLE": "A thin line of light appeared beneath the closed door."
+    },
+    {
+      "ID": "3132",
+      "WORD": "light (from the sun/a lamp)",
+      "POS": "verb",
+      "EXAMPLE": "We used a match to light the candle beside the window."
+    },
+    {
+      "ID": "3133",
+      "WORD": "light (not heavy)",
+      "POS": "adjective",
+      "EXAMPLE": "The suitcase is surprisingly light now that I've removed the books."
+    },
+    {
+      "ID": "3135",
+      "WORD": "like (find sb/sth pleasant)",
+      "POS": "noun",
+      "EXAMPLE": "The questionnaire asks about your likes and dislikes before suggesting activities."
+    },
+    {
+      "ID": "3136",
+      "WORD": "like (find sb/sth pleasant)",
+      "POS": "verb",
+      "EXAMPLE": "I like the painting more when I stand a little further away."
+    },
+    {
+      "ID": "3137",
+      "WORD": "like (similar)",
+      "POS": "preposition",
+      "EXAMPLE": "The cloud above the hill looked like a sleeping dog."
+    },
+    {
+      "ID": "3173",
+      "WORD": "live¹",
+      "POS": "verb",
+      "EXAMPLE": "They live above the bakery, so their mornings smell of fresh bread."
+    },
+    {
+      "ID": "3174",
+      "WORD": "live²",
+      "POS": "adjective",
+      "EXAMPLE": "The café hosts live music on the first Friday of each month."
+    },
+    {
+      "ID": "3175",
+      "WORD": "live²",
+      "POS": "adverb",
+      "EXAMPLE": "The final will be broadcast live from the stadium this evening."
+    },
+    {
+      "ID": "3204",
+      "WORD": "long¹",
+      "POS": "adjective",
+      "EXAMPLE": "We followed a long corridor before finding the room with our coats."
+    },
+    {
+      "ID": "3205",
+      "WORD": "long¹",
+      "POS": "adverb",
+      "EXAMPLE": "We haven't known each other long, but conversation already feels easy."
+    },
+    {
+      "ID": "3310",
+      "WORD": "match (contest/correspond)",
+      "POS": "noun",
+      "EXAMPLE": "The match continued in light rain until the pitch became too slippery."
+    },
+    {
+      "ID": "3311",
+      "WORD": "match (contest/correspond)",
+      "POS": "verb",
+      "EXAMPLE": "These curtains match the sofa without being exactly the same colour."
+    },
+    {
+      "ID": "3407",
+      "WORD": "mine (belongs to me)",
+      "POS": "pronoun",
+      "EXAMPLE": "The blue umbrella is mine; yours is the one beside the door."
+    },
+    {
+      "ID": "3408",
+      "WORD": "mine (hole in the ground)",
+      "POS": "noun",
+      "EXAMPLE": "The disused mine now offers guided tours of its upper tunnels."
+    },
+    {
+      "ID": "3420",
+      "WORD": "minute¹",
+      "POS": "noun",
+      "EXAMPLE": "Give me one minute to find my coat and we'll leave."
+    },
+    {
+      "ID": "3421",
+      "WORD": "minute²",
+      "POS": "adjective",
+      "EXAMPLE": "A minute crack in the cup was enough to let the tea escape."
+    },
+    {
+      "ID": "3802",
+      "WORD": "overcome",
+      "POS": "verb",
+      "EXAMPLE": "She overcame her fear of deep water during a series of gentle lessons."
+    },
+    {
+      "ID": "3915",
+      "WORD": "pension¹",
+      "POS": "noun",
+      "EXAMPLE": "Her pension covers the rent, but she still works a few hours each week."
+    },
+    {
+      "ID": "4019",
+      "WORD": "plunge",
+      "POS": "verb",
+      "EXAMPLE": "He took a deep breath before plunging into the cold water."
+    },
+    {
+      "ID": "4020",
+      "WORD": "plus¹",
+      "POS": "adjective",
+      "EXAMPLE": "On the plus side, the delay gave us time to eat."
+    },
+    {
+      "ID": "4021",
+      "WORD": "plus¹",
+      "POS": "conjunction",
+      "EXAMPLE": "The room is spacious, plus it has a view of the harbour."
+    },
+    {
+      "ID": "4022",
+      "WORD": "plus¹",
+      "POS": "noun",
+      "EXAMPLE": "The small garden is a definite plus when choosing between these two flats."
+    },
+    {
+      "ID": "4023",
+      "WORD": "plus¹",
+      "POS": "preposition",
+      "EXAMPLE": "The total is twenty pounds plus a small delivery charge."
+    },
+    {
+      "ID": "4322",
+      "WORD": "race (competition)",
+      "POS": "noun",
+      "EXAMPLE": "She entered the race to enjoy the atmosphere rather than to win."
+    },
+    {
+      "ID": "4323",
+      "WORD": "race (competition)",
+      "POS": "verb",
+      "EXAMPLE": "We raced to the station and arrived just as the doors closed."
+    },
+    {
+      "ID": "4324",
+      "WORD": "race (people)",
+      "POS": "noun",
+      "EXAMPLE": "The charity supports people regardless of their race or religion."
+    },
+    {
+      "ID": "4343",
+      "WORD": "rally",
+      "POS": "verb",
+      "EXAMPLE": "Neighbours rallied to help when the family lost their home in the fire."
+    },
+    {
+      "ID": "4415",
+      "WORD": "recount¹",
+      "POS": "verb",
+      "EXAMPLE": "He recounted the journey so vividly that we could imagine every wrong turning."
+    },
+    {
+      "ID": "4437",
+      "WORD": "refuse¹",
+      "POS": "verb",
+      "EXAMPLE": "She refused to sign the agreement until the missing details were added."
+    },
+    {
+      "ID": "4565",
+      "WORD": "rest (remaining part)",
+      "POS": "noun",
+      "EXAMPLE": "We ate half the bread and saved the rest for breakfast."
+    },
+    {
+      "ID": "4566",
+      "WORD": "rest (sleep/relax)",
+      "POS": "noun",
+      "EXAMPLE": "A short rest beside the river gave us enough energy for the final climb."
+    },
+    {
+      "ID": "4567",
+      "WORD": "rest (sleep/relax)",
+      "POS": "verb",
+      "EXAMPLE": "Let's rest here until everyone has caught up with us."
+    },
+    {
+      "ID": "4617",
+      "WORD": "ring¹",
+      "POS": "noun",
+      "EXAMPLE": "The ring was hidden in a small box beneath the folded scarf."
+    },
+    {
+      "ID": "4618",
+      "WORD": "ring²",
+      "POS": "noun",
+      "EXAMPLE": "The sharp ring of the telephone woke everyone in the quiet house."
+    },
+    {
+      "ID": "4619",
+      "WORD": "ring²",
+      "POS": "verb",
+      "EXAMPLE": "I'll ring you when we reach the station and know which platform to use."
+    },
+    {
+      "ID": "4637",
+      "WORD": "rock (music)",
+      "POS": "noun",
+      "EXAMPLE": "The band played rock loudly enough to be heard from the next street."
+    },
+    {
+      "ID": "4638",
+      "WORD": "rock (stone)",
+      "POS": "noun",
+      "EXAMPLE": "A large rock blocked the stream and formed a small pool behind it."
+    },
+    {
+      "ID": "4662",
+      "WORD": "row¹",
+      "POS": "noun",
+      "EXAMPLE": "A row of empty chairs faced the window overlooking the garden."
+    },
+    {
+      "ID": "4713",
+      "WORD": "satisfy",
+      "POS": "verb",
+      "EXAMPLE": "The answer satisfied his curiosity, but it raised a new question for me."
+    },
+    {
+      "ID": "4719",
+      "WORD": "say",
+      "POS": "verb",
+      "EXAMPLE": "She said the door was open, so I stopped looking for my key."
+    },
+    {
+      "ID": "4765",
+      "WORD": "second¹ (next after the first)",
+      "POS": "adverb",
+      "EXAMPLE": "Maya arrived second, carrying the cake that the first guest had forgotten."
+    },
+    {
+      "ID": "4766",
+      "WORD": "second¹ (next after the first)",
+      "POS": "determiner",
+      "EXAMPLE": "Her second attempt succeeded because she had corrected the earlier mistake."
+    },
+    {
+      "ID": "4767",
+      "WORD": "second¹ (next after the first)",
+      "POS": "number",
+      "EXAMPLE": "The second of the three tests was the hardest."
+    },
+    {
+      "ID": "4768",
+      "WORD": "second¹ (unit of time)",
+      "POS": "noun",
+      "EXAMPLE": "The light flashed for a second, then the room went dark again."
+    },
+    {
+      "ID": "4782",
+      "WORD": "seek",
+      "POS": "verb",
+      "EXAMPLE": "She sought advice from a colleague who had faced the same problem."
+    },
+    {
+      "ID": "4793",
+      "WORD": "sell",
+      "POS": "verb",
+      "EXAMPLE": "They sold the old sofa to make room for a desk."
+    },
+    {
+      "ID": "4796",
+      "WORD": "send",
+      "POS": "verb",
+      "EXAMPLE": "I sent the parcel yesterday, but it has not reached my sister yet."
+    },
+    {
+      "ID": "4824",
+      "WORD": "set (group)",
+      "POS": "noun",
+      "EXAMPLE": "The keys belong to a set that opens every cupboard in the workshop."
+    },
+    {
+      "ID": "4825",
+      "WORD": "set (put)",
+      "POS": "verb",
+      "EXAMPLE": "She set the tray on the table without spilling a drop."
+    },
+    {
+      "ID": "4845",
+      "WORD": "shake",
+      "POS": "verb",
+      "EXAMPLE": "She shook the empty box, hoping to hear one last biscuit inside."
+    },
+    {
+      "ID": "4868",
+      "WORD": "shine",
+      "POS": "verb",
+      "EXAMPLE": "The moon shone through a gap in the clouds."
+    },
+    {
+      "ID": "4898",
+      "WORD": "shrink",
+      "POS": "verb",
+      "EXAMPLE": "The jumper shrank in the wash and now fits my younger brother."
+    },
+    {
+      "ID": "4927",
+      "WORD": "simplify",
+      "POS": "verb",
+      "EXAMPLE": "We simplified the form by removing questions that nobody needed to answer."
+    },
+    {
+      "ID": "4938",
+      "WORD": "sing",
+      "POS": "verb",
+      "EXAMPLE": "The passengers sang together while they waited for the coach to be repaired."
+    },
+    {
+      "ID": "4943",
+      "WORD": "sink",
+      "POS": "verb",
+      "EXAMPLE": "The stone sank at once, while the empty bottle floated beside it."
+    },
+    {
+      "ID": "4946",
+      "WORD": "sit",
+      "POS": "verb",
+      "EXAMPLE": "We sat by the window and watched people hurry through the rain."
+    },
+    {
+      "ID": "4972",
+      "WORD": "sleep",
+      "POS": "verb",
+      "EXAMPLE": "The baby slept through the storm but woke when someone opened a biscuit tin."
+    },
+    {
+      "ID": "4992",
+      "WORD": "smell",
+      "POS": "verb",
+      "EXAMPLE": "The room smelt of paint, so we opened both windows."
+    },
+    {
+      "ID": "5069",
+      "WORD": "speak",
+      "POS": "verb",
+      "EXAMPLE": "She spoke quietly so that the sleeping child would not wake."
+    },
+    {
+      "ID": "5090",
+      "WORD": "speed",
+      "POS": "verb",
+      "EXAMPLE": "A cyclist sped past us just as we reached the corner."
+    },
+    {
+      "ID": "5094",
+      "WORD": "spend",
+      "POS": "verb",
+      "EXAMPLE": "I spent the afternoon repairing a drawer that had refused to open for months."
+    },
+    {
+      "ID": "5100",
+      "WORD": "spill",
+      "POS": "verb",
+      "EXAMPLE": "I spilt coffee on the letter before I had finished reading it."
+    },
+    {
+      "ID": "5102",
+      "WORD": "spin",
+      "POS": "verb",
+      "EXAMPLE": "The coin spun on the table before falling flat."
+    },
+    {
+      "ID": "5127",
+      "WORD": "spring",
+      "POS": "verb",
+      "EXAMPLE": "The cat sprang onto the wall when the dog entered the garden."
+    },
+    {
+      "ID": "5129",
+      "WORD": "spy",
+      "POS": "verb",
+      "EXAMPLE": "The children spied on their brother as he hid the birthday presents."
+    },
+    {
+      "ID": "5148",
+      "WORD": "stand",
+      "POS": "verb",
+      "EXAMPLE": "We stood under the awning while the rain ran into the street."
+    },
+    {
+      "ID": "5173",
+      "WORD": "steal",
+      "POS": "verb",
+      "EXAMPLE": "Someone stole the bicycle but left the lock lying beside the gate."
+    },
+    {
+      "ID": "5183",
+      "WORD": "stick (piece of wood)",
+      "POS": "noun",
+      "EXAMPLE": "The dog carried a stick that was too wide to pass through the gate."
+    },
+    {
+      "ID": "5184",
+      "WORD": "stick (push into/attach)",
+      "POS": "verb",
+      "EXAMPLE": "Stick the label to the box where it can be read easily."
+    },
+    {
+      "ID": "5223",
+      "WORD": "strike",
+      "POS": "verb",
+      "EXAMPLE": "Lightning struck the old tree, splitting its trunk down the middle."
+    },
+    {
+      "ID": "5226",
+      "WORD": "strip (long narrow piece)",
+      "POS": "noun",
+      "EXAMPLE": "Cut a strip of paper and fold it along its length."
+    },
+    {
+      "ID": "5227",
+      "WORD": "strip (remove clothes/a layer)",
+      "POS": "verb",
+      "EXAMPLE": "They stripped the old paint from the door before applying a new coat."
+    },
+    {
+      "ID": "5240",
+      "WORD": "study",
+      "POS": "verb",
+      "EXAMPLE": "We studied the map before choosing a path across the hills."
+    },
+    {
+      "ID": "5312",
+      "WORD": "supply",
+      "POS": "verb",
+      "EXAMPLE": "The bakery supplies bread to three cafés in the town."
+    },
+    {
+      "ID": "5353",
+      "WORD": "swear",
+      "POS": "verb",
+      "EXAMPLE": "She swore that she would return the borrowed book by Friday."
+    },
+    {
+      "ID": "5355",
+      "WORD": "sweep",
+      "POS": "verb",
+      "EXAMPLE": "He swept the broken glass into a pile before carefully collecting it."
+    },
+    {
+      "ID": "5359",
+      "WORD": "swim",
+      "POS": "verb",
+      "EXAMPLE": "We swam to the steps and climbed out before the rain began."
+    },
+    {
+      "ID": "5362",
+      "WORD": "swing",
+      "POS": "verb",
+      "EXAMPLE": "The gate swung open in the wind and struck the wall."
+    },
+    {
+      "ID": "5407",
+      "WORD": "teach",
+      "POS": "verb",
+      "EXAMPLE": "My aunt taught me to sew by helping me repair a torn pocket."
+    },
+    {
+      "ID": "5411",
+      "WORD": "tear¹",
+      "POS": "noun",
+      "EXAMPLE": "There is a small tear in the curtain where it caught on the window latch."
+    },
+    {
+      "ID": "5412",
+      "WORD": "tear¹",
+      "POS": "verb",
+      "EXAMPLE": "He tore the paper carefully along the fold to make two equal pieces."
+    },
+    {
+      "ID": "5413",
+      "WORD": "tear²",
+      "POS": "noun",
+      "EXAMPLE": "She wiped away a tear while reading the letter from her old friend."
+    },
+    {
+      "ID": "5450",
+      "WORD": "terrify",
+      "POS": "verb",
+      "EXAMPLE": "The sudden noise terrified the dog, which hid under the table."
+    },
+    {
+      "ID": "5529",
+      "WORD": "throw",
+      "POS": "verb",
+      "EXAMPLE": "She threw the ball towards the wall and caught it as it bounced back."
+    },
+    {
+      "ID": "5536",
+      "WORD": "tidy",
+      "POS": "verb",
+      "EXAMPLE": "We tidied the kitchen before our guests arrived with more food."
+    },
+    {
+      "ID": "5725",
+      "WORD": "undergo",
+      "POS": "verb",
+      "EXAMPLE": "The old theatre underwent extensive repairs before it could reopen."
+    },
+    {
+      "ID": "5733",
+      "WORD": "undertake",
+      "POS": "verb",
+      "EXAMPLE": "The volunteers undertook the repairs after the council supplied the materials."
+    },
+    {
+      "ID": "5776",
+      "WORD": "uphold",
+      "POS": "verb",
+      "EXAMPLE": "The appeal committee upheld the original decision after reviewing the new evidence."
+    },
+    {
+      "ID": "5793",
+      "WORD": "used¹",
+      "POS": "adjective",
+      "EXAMPLE": "She is used to working alone, so the busy office took some adjustment."
+    },
+    {
+      "ID": "5794",
+      "WORD": "used²",
+      "POS": "adjective",
+      "EXAMPLE": "Put the used towels in the basket beside the bathroom door."
+    },
+    {
+      "ID": "5889",
+      "WORD": "wake",
+      "POS": "verb",
+      "EXAMPLE": "I woke when the rain began tapping against the window."
+    },
+    {
+      "ID": "5928",
+      "WORD": "wear",
+      "POS": "verb",
+      "EXAMPLE": "She wore a bright scarf so that we could find her in the crowd."
+    },
+    {
+      "ID": "5930",
+      "WORD": "weave",
+      "POS": "verb",
+      "EXAMPLE": "She wove narrow strips of cloth into a colourful mat."
+    },
+    {
+      "ID": "6007",
+      "WORD": "win",
+      "POS": "verb",
+      "EXAMPLE": "She won the race by saving enough energy for the final hill."
+    },
+    {
+      "ID": "6008",
+      "WORD": "wind¹",
+      "POS": "noun",
+      "EXAMPLE": "The wind carried the sound of the church bells across the valley."
+    },
+    {
+      "ID": "6009",
+      "WORD": "wind²",
+      "POS": "verb",
+      "EXAMPLE": "Wind the loose cable around the handle before putting the machine away."
+    },
+    {
+      "ID": "6023",
+      "WORD": "withdraw",
+      "POS": "verb",
+      "EXAMPLE": "She withdrew her application after learning that the job involved frequent travel."
+    }
+  ],
+  "unicode_examples": [
+    {
+      "ID": "132",
+      "WORD": "affordable",
+      "EXAMPLE": "The café serves affordable meals, so students often gather there after class."
+    },
+    {
+      "ID": "136",
+      "WORD": "after",
+      "EXAMPLE": "Let's meet after lunch, when the café is usually quieter."
+    },
+    {
+      "ID": "279",
+      "WORD": "apparently",
+      "EXAMPLE": "Apparently, the café has a garden, although I've only seen the front room."
+    },
+    {
+      "ID": "555",
+      "WORD": "bike",
+      "EXAMPLE": "I left my bike outside the café and remembered to lock it."
+    },
+    {
+      "ID": "704",
+      "WORD": "busy",
+      "EXAMPLE": "The café gets busy after school, when families stop for a snack."
+    },
+    {
+      "ID": "834",
+      "WORD": "charge",
+      "EXAMPLE": "The café charges extra for a larger cup of coffee."
+    },
+    {
+      "ID": "1152",
+      "WORD": "contender",
+      "EXAMPLE": "The small café became a serious contender for the town's annual food award."
+    },
+    {
+      "ID": "1260",
+      "WORD": "covered",
+      "EXAMPLE": "A covered walkway lets visitors reach the café without getting wet."
+    },
+    {
+      "ID": "1346",
+      "WORD": "daily",
+      "EXAMPLE": "The museum opens daily, but the café closes on Mondays."
+    },
+    {
+      "ID": "1386",
+      "WORD": "decent",
+      "EXAMPLE": "We found a decent café with warm food and reasonable prices."
+    },
+    {
+      "ID": "1486",
+      "WORD": "desperate",
+      "EXAMPLE": "By the time the café opened, we were desperate for a hot drink."
+    },
+    {
+      "ID": "1499",
+      "WORD": "detective",
+      "EXAMPLE": "The detective returned to the café to speak to the waiter again."
+    },
+    {
+      "ID": "1788",
+      "WORD": "elsewhere",
+      "EXAMPLE": "The café was full, so we decided to have lunch elsewhere."
+    },
+    {
+      "ID": "1811",
+      "WORD": "employ",
+      "EXAMPLE": "The café plans to employ another cook during the busy summer season."
+    },
+    {
+      "ID": "1923",
+      "WORD": "every",
+      "EXAMPLE": "Every table in the café had a small vase of fresh flowers."
+    },
+    {
+      "ID": "1946",
+      "WORD": "excellent",
+      "EXAMPLE": "The little café serves excellent soup in bowls large enough for lunch."
+    },
+    {
+      "ID": "1982",
+      "WORD": "expand",
+      "EXAMPLE": "The café hopes to expand into the empty shop next door."
+    },
+    {
+      "ID": "2079",
+      "WORD": "fashionable",
+      "EXAMPLE": "The café is fashionable now, but its furniture still comes from charity shops."
+    },
+    {
+      "ID": "2218",
+      "WORD": "following",
+      "EXAMPLE": "The little band gained a loyal following by playing at local cafés."
+    },
+    {
+      "ID": "2245",
+      "WORD": "former",
+      "EXAMPLE": "The former school building now houses a library and a café."
+    },
+    {
+      "ID": "2273",
+      "WORD": "franchise",
+      "EXAMPLE": "He bought a franchise and opened a café under the company's name."
+    },
+    {
+      "ID": "2285",
+      "WORD": "fresh",
+      "EXAMPLE": "Fresh bread arrived just as the café opened its doors."
+    },
+    {
+      "ID": "2330",
+      "WORD": "future",
+      "EXAMPLE": "Future visitors will enter through the restored courtyard beside the café."
+    },
+    {
+      "ID": "2380",
+      "WORD": "girlfriend",
+      "EXAMPLE": "His girlfriend recognised the café from a photograph he had sent her."
+    },
+    {
+      "ID": "2486",
+      "WORD": "halfway",
+      "EXAMPLE": "We were halfway home when we realised the umbrella was still at the café."
+    },
+    {
+      "ID": "2651",
+      "WORD": "hunger",
+      "EXAMPLE": "Hunger persuaded us to stop discussing restaurants and enter the nearest café."
+    },
+    {
+      "ID": "2675",
+      "WORD": "ideally",
+      "EXAMPLE": "Ideally, we would finish the noisy work before the café opens."
+    },
+    {
+      "ID": "2943",
+      "WORD": "jazz",
+      "EXAMPLE": "A small jazz band was playing in the corner of the café."
+    },
+    {
+      "ID": "2952",
+      "WORD": "joke",
+      "EXAMPLE": "We used to joke about buying the café, but now it's for sale."
+    },
+    {
+      "ID": "3134",
+      "WORD": "lighting",
+      "EXAMPLE": "The soft lighting made the café feel warm on a cold evening."
+    },
+    {
+      "ID": "3139",
+      "WORD": "likely",
+      "EXAMPLE": "The café is likely to be busy just after the concert."
+    },
+    {
+      "ID": "3174",
+      "WORD": "live²",
+      "EXAMPLE": "The café hosts live music on the first Friday of each month."
+    },
+    {
+      "ID": "3176",
+      "WORD": "lively",
+      "EXAMPLE": "The quiet café became lively when the musicians began to play."
+    },
+    {
+      "ID": "3191",
+      "WORD": "location",
+      "EXAMPLE": "The café's location near the station makes it a convenient meeting place."
+    },
+    {
+      "ID": "3252",
+      "WORD": "main",
+      "EXAMPLE": "The main entrance is closed, so use the door beside the café."
+    },
+    {
+      "ID": "3299",
+      "WORD": "marriage",
+      "EXAMPLE": "Their marriage survived several moves and a memorable attempt to run a café."
+    },
+    {
+      "ID": "3432",
+      "WORD": "mistake",
+      "EXAMPLE": "It's easy to mistake that narrow doorway for the entrance to the café."
+    },
+    {
+      "ID": "3527",
+      "WORD": "name",
+      "EXAMPLE": "They decided to name the café after the tree outside its window."
+    },
+    {
+      "ID": "3545",
+      "WORD": "near",
+      "EXAMPLE": "We hope to reopen the café at some point in the near future."
+    },
+    {
+      "ID": "3568",
+      "WORD": "neighbourhood",
+      "EXAMPLE": "The new café quickly became a meeting place for the whole neighbourhood."
+    },
+    {
+      "ID": "3584",
+      "WORD": "news",
+      "EXAMPLE": "The news that the café would reopen pleased everyone on the street."
+    },
+    {
+      "ID": "3605",
+      "WORD": "noisy",
+      "EXAMPLE": "The café was too noisy for a conversation about anything complicated."
+    },
+    {
+      "ID": "3617",
+      "WORD": "normal",
+      "EXAMPLE": "The café returned to its normal opening hours after the repairs were finished."
+    },
+    {
+      "ID": "3640",
+      "WORD": "November",
+      "EXAMPLE": "We visited in November, when the beach was empty and the cafés were quiet."
+    },
+    {
+      "ID": "3675",
+      "WORD": "occasionally",
+      "EXAMPLE": "We occasionally eat at the café when neither of us feels like cooking."
+    },
+    {
+      "ID": "3706",
+      "WORD": "old-fashioned",
+      "EXAMPLE": "The café serves tea in old-fashioned cups with tiny painted flowers."
+    },
+    {
+      "ID": "3723",
+      "WORD": "opening",
+      "EXAMPLE": "The opening of the new café brought more people to the quiet street."
+    },
+    {
+      "ID": "3738",
+      "WORD": "opposite",
+      "EXAMPLE": "The café is opposite the station, beside a small flower shop."
+    },
+    {
+      "ID": "3861",
+      "WORD": "part-time",
+      "EXAMPLE": "He works part-time at the café while studying furniture design."
+    },
+    {
+      "ID": "3898",
+      "WORD": "patron",
+      "EXAMPLE": "A regular patron donated the photographs now hanging above the café counter."
+    },
+    {
+      "ID": "3986",
+      "WORD": "pity",
+      "EXAMPLE": "It's a pity the café is closed when the view is so beautiful."
+    },
+    {
+      "ID": "4047",
+      "WORD": "pop",
+      "EXAMPLE": "A familiar pop song was playing quietly behind the conversation in the café."
+    },
+    {
+      "ID": "4051",
+      "WORD": "popularity",
+      "EXAMPLE": "The café's popularity grew after it began serving breakfast at weekends."
+    },
+    {
+      "ID": "4086",
+      "WORD": "practical",
+      "EXAMPLE": "A washable cover would be more practical than pale silk in this busy café."
+    },
+    {
+      "ID": "4108",
+      "WORD": "prefer",
+      "EXAMPLE": "I prefer the smaller café because we can hear each other speak."
+    },
+    {
+      "ID": "4204",
+      "WORD": "profit",
+      "EXAMPLE": "The café made a small profit after covering the cost of its new oven."
+    },
+    {
+      "ID": "4370",
+      "WORD": "reach",
+      "EXAMPLE": "We should reach the village before the last café closes."
+    },
+    {
+      "ID": "4395",
+      "WORD": "recall",
+      "EXAMPLE": "I can recall the conversation clearly, but not the name of the café."
+    },
+    {
+      "ID": "4400",
+      "WORD": "recently",
+      "EXAMPLE": "The café recently added a small terrace overlooking the river."
+    },
+    {
+      "ID": "4434",
+      "WORD": "refuge",
+      "EXAMPLE": "The small café provided a welcome refuge from the heavy rain."
+    },
+    {
+      "ID": "4528",
+      "WORD": "reputation",
+      "EXAMPLE": "The café built its reputation on good bread and consistently friendly service."
+    },
+    {
+      "ID": "4622",
+      "WORD": "rise",
+      "EXAMPLE": "The rise in visitor numbers meant the café needed a second member of staff."
+    },
+    {
+      "ID": "4677",
+      "WORD": "run",
+      "EXAMPLE": "They run the café together and take turns baking the bread."
+    },
+    {
+      "ID": "4803",
+      "WORD": "sensitivity",
+      "EXAMPLE": "Her sensitivity to noise made the crowded café an uncomfortable place to work."
+    },
+    {
+      "ID": "4848",
+      "WORD": "shame",
+      "EXAMPLE": "It is a shame that the café closes before the last train arrives."
+    },
+    {
+      "ID": "4881",
+      "WORD": "shooting",
+      "EXAMPLE": "Police closed the street after a shooting outside the café."
+    },
+    {
+      "ID": "4947",
+      "WORD": "site",
+      "EXAMPLE": "The old factory site will become a park with a small café."
+    },
+    {
+      "ID": "5004",
+      "WORD": "so",
+      "EXAMPLE": "The café was full, so we took our drinks to the park."
+    },
+    {
+      "ID": "5041",
+      "WORD": "somewhere",
+      "EXAMPLE": "Somewhere quiet would suit us better than another busy café."
+    },
+    {
+      "ID": "5150",
+      "WORD": "standard",
+      "EXAMPLE": "The café maintains a high standard even when the queue reaches the door."
+    },
+    {
+      "ID": "5163",
+      "WORD": "station",
+      "EXAMPLE": "The station has two platforms and a café that never seems to open."
+    },
+    {
+      "ID": "5188",
+      "WORD": "still",
+      "EXAMPLE": "The café is still open, although every other shop has closed."
+    },
+    {
+      "ID": "5228",
+      "WORD": "strive",
+      "EXAMPLE": "The café strives to serve good food at prices local people can afford."
+    },
+    {
+      "ID": "5312",
+      "WORD": "supply",
+      "EXAMPLE": "The bakery supplies bread to three cafés in the town."
+    },
+    {
+      "ID": "5317",
+      "WORD": "suppose",
+      "EXAMPLE": "I suppose the café is closed; there are no lights on inside."
+    },
+    {
+      "ID": "5447",
+      "WORD": "terrible",
+      "EXAMPLE": "The weather was terrible, but the little café gave us somewhere warm to wait."
+    },
+    {
+      "ID": "5542",
+      "WORD": "till",
+      "EXAMPLE": "The café serves breakfast till noon, which suits people who arrive late."
+    },
+    {
+      "ID": "5581",
+      "WORD": "top",
+      "EXAMPLE": "The little café tops our list of places to visit again."
+    },
+    {
+      "ID": "5743",
+      "WORD": "unfortunately",
+      "EXAMPLE": "Unfortunately, the last table had been taken by the time we reached the café."
+    },
+    {
+      "ID": "5792",
+      "WORD": "used to",
+      "EXAMPLE": "We used to meet at the old café before it became a bicycle shop."
+    },
+    {
+      "ID": "5798",
+      "WORD": "usual",
+      "EXAMPLE": "The café was closed, so we could not have our usual breakfast there."
+    },
+    {
+      "ID": "5829",
+      "WORD": "venture",
+      "EXAMPLE": "Their first business venture was a small café in a converted garage."
+    },
+    {
+      "ID": "5968",
+      "WORD": "where",
+      "EXAMPLE": "Where did you put the map after we left the café?"
+    },
+    {
+      "ID": "6079",
+      "WORD": "yeah",
+      "EXAMPLE": "Yeah, that is the café I mentioned, just beside the bridge."
+    },
+    {
+      "ID": "6086",
+      "WORD": "yesterday",
+      "EXAMPLE": "Yesterday was our busiest day since the café opened."
+    }
+  ]
+}

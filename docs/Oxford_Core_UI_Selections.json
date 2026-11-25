@@ -1,0 +1,67 @@
+{
+  "project": "Oxford_Core_Vocabulary_UI",
+  "source_spec": "v0.91",
+  "format": "10 views × PC(A/B), Mobile(A/B)",
+  "selections": [
+    {
+      "view": "hero",
+      "title": "Hero",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "view_selection",
+      "title": "View Selection",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "quiz_selection",
+      "title": "Quiz Selection",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "submode_selection",
+      "title": "Submode Selection",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "dictionary",
+      "title": "Dictionary",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "data",
+      "title": "Data",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "cloze",
+      "title": "Cloze Test",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "word_recall",
+      "title": "Word Recall",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "reading_review",
+      "title": "Reading Review",
+      "pc": "A",
+      "mobile": "A"
+    },
+    {
+      "view": "sentence_generation",
+      "title": "Sentence Generation",
+      "pc": "A",
+      "mobile": "A"
+    }
+  ]
+}

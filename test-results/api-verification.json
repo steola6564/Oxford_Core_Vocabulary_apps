@@ -1,0 +1,324 @@
+{
+  "scope": "Executed Go HTTP API and SQLite; browser scenarios require separate verification",
+  "binary": "/workspace/scratch/4f75d3fd397b/oxford-core-vocabulary/bin/oxford-core-linux-amd64",
+  "corpus": "/workspace/scratch/4f75d3fd397b/oxford-core-vocabulary/data/all_with_ID.csv",
+  "started_at_utc": "2026-11-04T14:29:31Z",
+  "browser_not_tested_here": [
+    3,
+    4,
+    "6 controls",
+    "10 swipes/cancel/PC buttons",
+    "11 before-reveal UI",
+    "16 frontend buffering",
+    "17 rendered UI",
+    "18 Coming soon UI"
+  ],
+  "checks": [
+    {
+      "name": "Startup / seven tables / nine Action columns / embedded HTML",
+      "spec_22_items": [
+        1
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "tables": [
+          "action_logs",
+          "attempt_logs",
+          "collection_items",
+          "collections",
+          "question_specs",
+          "session_questions",
+          "sessions"
+        ],
+        "action_columns": [
+          "action_id",
+          "occurred_at",
+          "activity_id",
+          "screen",
+          "event",
+          "target",
+          "value",
+          "session_id",
+          "attempt_id"
+        ],
+        "served_html_bytes": 128443
+      },
+      "status": "passed",
+      "duration_ms": 5
+    },
+    {
+      "name": "Authoritative CSV / stable IDs / comma-containing cell",
+      "spec_22_items": [
+        2
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "records": 6100,
+        "sha256": "9c871e809b082836339c665aa611476602301f3e6425eca0ded34185d8093f72",
+        "comma_cell": "a, an",
+        "cloze_eligible": 6100
+      },
+      "status": "passed",
+      "duration_ms": 7
+    },
+    {
+      "name": "Independent NFKC search oracle and full pagination",
+      "spec_22_items": [
+        5,
+        6
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "oracle_filter_cases": 40,
+        "full_pagination_ids": 6100,
+        "initial_X": 0
+      },
+      "status": "passed",
+      "duration_ms": 385
+    },
+    {
+      "name": "Filter encoding examples and raw Unicode round trip",
+      "spec_22_items": [
+        6,
+        7
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "spec_example_A": "1,4,3,2,12,16,4,2,1,2,7,1,18,12,1,50",
+        "raw_unicode_and_spaces_preserved": true,
+        "all_tag_7_omitted": true
+      },
+      "status": "passed",
+      "duration_ms": 24
+    },
+    {
+      "name": "Recall both directions / correctness / NULL and zero / Unknown",
+      "spec_22_items": [
+        8,
+        11,
+        12
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "directions": [
+          "en_to_jp",
+          "jp_to_en"
+        ],
+        "selected_corpus_id_retained": 6059,
+        "repeated_attempts_preserved": true,
+        "confidence_values": [
+          0,
+          null,
+          100
+        ]
+      },
+      "status": "passed",
+      "duration_ms": 12
+    },
+    {
+      "name": "Cloze exact span, original input, all generated bounds",
+      "spec_22_items": [
+        9
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "example_parameters": "2,10,7",
+        "input_preserved": "  ABANDON  ",
+        "all_generated_spans_checked": 6100,
+        "cloze_skipped": 0,
+        "rune_bounds_and_token_boundaries": true
+      },
+      "status": "passed",
+      "duration_ms": 246
+    },
+    {
+      "name": "Reading two variants and subjective-only outcomes",
+      "spec_22_items": [
+        10,
+        11
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "variants": [
+          {
+            "variant": "word_and_example",
+            "recalled": 1,
+            "correct": null,
+            "confidence": 0
+          },
+          {
+            "variant": "jp_and_example",
+            "recalled": 0,
+            "correct": null,
+            "confidence": null
+          }
+        ],
+        "explicit_unknown_distinct": true,
+        "scope": "API storage only; touch/keyboard input requires separate browser evidence"
+      },
+      "status": "passed",
+      "duration_ms": 8
+    },
+    {
+      "name": "Skipped movement, completion and nonmutating Resume",
+      "spec_22_items": [
+        12,
+        14
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "positions": 3,
+        "movement_attempt_delta": 0,
+        "resume_spec_delta": 0,
+        "completed_after_positions": [
+          3,
+          1,
+          2
+        ],
+        "unknown_counts_as_answer": true
+      },
+      "status": "passed",
+      "duration_ms": 9
+    },
+    {
+      "name": "Review historical incorrect and outcome distinctions",
+      "spec_22_items": [
+        13
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "review_reuses_question_id": "00000054",
+        "question_spec_delta": 0,
+        "earlier_wrong_survives_later_correct": true,
+        "unknown_and_reading_not_incorrect": true
+      },
+      "status": "passed",
+      "duration_ms": 6
+    },
+    {
+      "name": "History conditions intersect on the same Attempt",
+      "spec_22_items": [
+        13,
+        17
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "same_attempt_cases": 5,
+        "wrong_at": 1793801971458,
+        "correct_at": 1793801971558,
+        "inclusive_time_endpoints": true
+      },
+      "status": "passed",
+      "duration_ms": 9
+    },
+    {
+      "name": "All implemented filter tags and Review initial-letter constraint",
+      "spec_22_items": [
+        6,
+        7,
+        13
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "implemented_tags_round_tripped": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12
+        ],
+        "tag10_reserved_not_used": true,
+        "new_and_review_initial_filter": true,
+        "filter_spec": "1,11,1,17,32,32,65313,65346,65345,65358,65348,65359,65358,32,32,118,69,114,66,32,32,2,1,2,3,1,16,4,1,1,5,1,19,6,1,1,7,1,1,8,1,2,9,2,20,20,11,2,1793801971458,1793801971458,12,1,-1"
+      },
+      "status": "passed",
+      "duration_ms": 5
+    },
+    {
+      "name": "Collections warning, multiplicity, individual deletion, spec reuse",
+      "spec_22_items": [
+        15
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "duplicate_warning_http": 409,
+        "vocabulary_repetition_count": 2,
+        "question_repetition_count": 2,
+        "single_registration_deletion": true,
+        "question_collection_spec_delta": 0
+      },
+      "status": "passed",
+      "duration_ms": 14
+    },
+    {
+      "name": "Action batching, timestamps, links, Data and bounded usage evidence",
+      "spec_22_items": [
+        16,
+        17
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "batch_events": 5,
+        "occurred_at_distinct_from_sent_at": true,
+        "retry_no_duplicate_rows": true,
+        "missing_answer_action_links": 0,
+        "objective_count": 8,
+        "unknown_count": 5,
+        "dictionary_usage_ms": 2000,
+        "unclosed_interval_marked_unknown": true
+      },
+      "status": "passed",
+      "duration_ms": 10
+    },
+    {
+      "name": "Invalid submissions and deferred generation do not create rows",
+      "spec_22_items": [
+        11,
+        12,
+        18
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "invalid_confidence_or_selection_or_position_rejected": true,
+        "sentence_generation_no_session": true,
+        "empty_initial_X_no_session": true
+      },
+      "status": "passed",
+      "duration_ms": 6
+    },
+    {
+      "name": "Real process restart preserves DB, Session and history",
+      "spec_22_items": [
+        14,
+        17
+      ],
+      "kind": "API/SQLite execution",
+      "details": {
+        "same_session_id": "00000011",
+        "same_question_order_and_attempt_counts": true,
+        "all_table_row_counts_retained": {
+          "action_logs": 46,
+          "attempt_logs": 14,
+          "collection_items": 4,
+          "collections": 3,
+          "question_specs": 6165,
+          "session_questions": 6169,
+          "sessions": 16
+        }
+      },
+      "status": "passed",
+      "duration_ms": 114
+    }
+  ],
+  "server_log": "2026/11/04 23:29:31 Oxford Core Vocabulary v1.0 at http://127.0.0.1:55615 | Corpus 6100 rows | Cloze 6100 eligible | DB /tmp/oxford-core-api-verify-jmdv76ft/verification.db\n2026/11/04 23:29:32 Oxford Core Vocabulary v1.0 at http://127.0.0.1:55615 | Corpus 6100 rows | Cloze 6100 eligible | DB /tmp/oxford-core-api-verify-jmdv76ft/verification.db\n",
+  "passed": 15,
+  "failed": 0,
+  "duration_seconds": 0.994,
+  "status": "passed"
+}

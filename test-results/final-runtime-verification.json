@@ -1,0 +1,72 @@
+{
+  "verified_at_utc": "2026-11-04T14:29:48.504734+00:00",
+  "platform": "linux/amd64",
+  "go_version": "go version go1.24.9 linux/amd64",
+  "build": {
+    "command": "CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -buildvcs=false -mod=vendor -trimpath -tags sqlite_omit_load_extension,netgo,osusergo -ldflags='-s -w -linkmode external -extldflags \"-static\"' -o bin/oxford-core-linux-amd64 .",
+    "exit_status": 0,
+    "static_linked": true,
+    "file_output": "/workspace/scratch/4f75d3fd397b/oxford-core-vocabulary/bin/oxford-core-linux-amd64: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=8a9fee704611194231292462f30cef521dbf4ecf, for GNU/Linux 3.2.0, stripped",
+    "log": "build-final.log"
+  },
+  "go_tests": {
+    "passed": 8,
+    "failed": 0,
+    "names": [
+      "TestFilterSpecificationExamples",
+      "TestMalformedFilterSpecifications",
+      "TestCSVCorpusAndSearchSemantics",
+      "TestClozeSpansAndOriginalSurfaceForms",
+      "TestAttemptsAreAtomicAndNullable",
+      "TestHistoryConstraintsUseOneAttempt",
+      "TestUsageHasKnownPairsAndUnknownEnds",
+      "TestSevenTablesNineActionColumns"
+    ],
+    "log": "go-test-final.log",
+    "command": "go test -mod=vendor -buildvcs=false -count=1 -v ./...",
+    "reused_after_frontend_only_change": true,
+    "reuse_basis": "All Go sources, go.mod, go.sum and schema.sql have identical SHA-256 values to the previous executed Go8/8 run. Only embedded frontend changed; API15 and frontend6 were rerun against this build.",
+    "log_last_modified_at_utc": "2026-11-04T14:26:11.855579+00:00"
+  },
+  "api_checks": {
+    "passed": 15,
+    "failed": 0,
+    "report": "api-verification.json",
+    "log": "api-verification-final.log",
+    "command": "python3 tests/verify_api.py --binary ./bin/oxford-core-linux-amd64 --corpus ./data/all_with_ID.csv --output ./test-results/api-verification.json"
+  },
+  "frontend_control_flow_checks": {
+    "passed": 6,
+    "failed": 0,
+    "report": "frontend-control-flow-verification.json",
+    "log": "frontend-control-flow-final.log",
+    "command": "node tests/frontend_control_flow_regression.cjs"
+  },
+  "limitations": [
+    "API verification uses its own temporary SQLite DB and short-lived server; existing managed preview and learning DB are untouched.",
+    "Frontend regressions execute real functions with controlled Promise/DOM substitutes; browser/touch/viewport evidence is separate.",
+    "This run executes Linux amd64; no macOS, Windows, mobile Safari, physical gamepad or actual Tailnet deployment execution is claimed."
+  ],
+  "compiled_binary_embeds_current_html": true,
+  "frontend_bytes": 128443,
+  "sha256": {
+    "api.go": "e31da99eef0c89b0b37afc5f8bede6b852dbe1130d5bb1301a3814dcd8bb74d7",
+    "attempts.go": "edb67ac42432e95f5e5f67b1d8ffb5aacf385d10be79ee1df2f4afd655cddbef",
+    "bin/oxford-core-linux-amd64": "59fd861d8abdd4614a29e9131e92f6035b64099bacad90037acb79423c59325b",
+    "collections.go": "c21509f6ae31302fb29d7339ac4a87c1ec6158de24edb80cf8b30c71e984947a",
+    "core_test.go": "b0fcca069b12d4cd5d8a2b59d832cbcfbbb4e82eadc3a8a65d277bff325ba399",
+    "corpus.go": "e518ada77a9b8e8148a514baf0ffdb4b586944a53317264f62b73b7412c507bd",
+    "data/all_with_ID.csv": "9c871e809b082836339c665aa611476602301f3e6425eca0ded34185d8093f72",
+    "data.go": "8cb03aceb4765f03c0eb6ef840884544a11e330837d9a7484b520c5ebafeed37",
+    "filter.go": "9f1c886c081ef77a86238e621ed4df518a54e2c578ce8b497a8f2d088fa3bb23",
+    "go.mod": "0a8ba6ed25c54d2fa97f0cd3243884d5101ccb5090d8f93ff36f7f0032536e54",
+    "go.sum": "ddcd7296c46d37096c0f455f4e46ff82622c3657f785f80e871983e91636d8ce",
+    "main.go": "95d2eb20e7916c49ba3697f35f55095fe3ae8d53adfc912e361ce0e2a95be532",
+    "quiz.go": "b2f07f0d3eb4c6f192283d08c279814dd4da319ac16a6c45dc3f407191316266",
+    "schema.sql": "d3211326990c20c71ed036313d61db3df5837a28b640786ea8a7d524eb85b94d",
+    "store.go": "e450d5392371848ab644765b917f117ca7bf67d9b374322e7e499c651c1fe29b",
+    "tests/frontend_control_flow_regression.cjs": "9fc56ec7927f6d18657fad7073536618f7bf103aa3b19651594f84247e8abdab",
+    "tests/verify_api.py": "ca43c41c4d41dc10191194c03057bf1c489bdb9356b97e2f2c69382006cdf851",
+    "web/index.html": "caaf7914bc2c8673d2979ed43c05cb7de1e5cad5cde96f1883b36208a63a3b95"
+  }
+}

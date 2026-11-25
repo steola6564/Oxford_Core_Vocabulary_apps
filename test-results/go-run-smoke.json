@@ -1,0 +1,125 @@
+{
+  "test": "README single Go command startup",
+  "toolchain": "go version go1.24.9 linux/amd64",
+  "env": {
+    "CGO_ENABLED": "1"
+  },
+  "status": "PASS_WITH_NOTE",
+  "previous_harness_attempt": {
+    "test": "README single Go command startup",
+    "toolchain": "go version go1.24.9 linux/amd64",
+    "env": {
+      "CGO_ENABLED": "1"
+    },
+    "status": "FAIL",
+    "command": "CGO_ENABLED=1 /workspace/scratch/4f75d3fd397b/runtime/go/bin/go run -buildvcs=false -mod=vendor -tags sqlite_omit_load_extension . -addr 127.0.0.1:42525 -csv /workspace/scratch/4f75d3fd397b/oxford-core-vocabulary/data/all_with_ID.csv -db /tmp/ocv-go-run-smoke-5t86nzqz/fresh-learning.db",
+    "cwd": "/workspace/scratch/4f75d3fd397b/oxford-core-vocabulary",
+    "database_was_absent": true,
+    "temporary_database": "/tmp/ocv-go-run-smoke-5t86nzqz/fresh-learning.db",
+    "source_html_bytes": 128443,
+    "startup_seconds": 42.574,
+    "health": {
+      "corpus_count": 6100,
+      "ok": true
+    },
+    "served_html_bytes": 128443,
+    "html_byte_identical": true,
+    "html_sha256": "caaf7914bc2c8673d2979ed43c05cb7de1e5cad5cde96f1883b36208a63a3b95",
+    "content_type": "text/html; charset=utf-8",
+    "application_tables": [
+      "action_logs",
+      "attempt_logs",
+      "collection_items",
+      "collections",
+      "question_specs",
+      "session_questions",
+      "sessions"
+    ],
+    "table_count": 7,
+    "action_columns": [
+      "action_id",
+      "occurred_at",
+      "activity_id",
+      "screen",
+      "event",
+      "target",
+      "value",
+      "session_id",
+      "attempt_id"
+    ],
+    "action_column_count": 9,
+    "integrity_check": "ok",
+    "error": "[Errno 2] No such file or directory: '/proc/11/task/11/children'",
+    "server_log": "2026/11/04 23:38:31 Oxford Core Vocabulary v1.0 at http://127.0.0.1:42525 | Corpus 6100 rows | Cloze 6100 eligible | DB /tmp/ocv-go-run-smoke-5t86nzqz/fresh-learning.db\n",
+    "elapsed_seconds": 42.579,
+    "temporary_database_removed_after_test": true
+  },
+  "retry_reason": "The first startup checks passed; /proc child-PID lookup was unavailable. Use isolated process-group SIGINT, the same signal sent by Ctrl+C, instead.",
+  "command": "CGO_ENABLED=1 /workspace/scratch/4f75d3fd397b/runtime/go/bin/go run -buildvcs=false -mod=vendor -tags sqlite_omit_load_extension . -addr 127.0.0.1:59207 -csv /workspace/scratch/4f75d3fd397b/oxford-core-vocabulary/data/all_with_ID.csv -db /tmp/ocv-go-run-smoke-y9j169qg/fresh-learning.db",
+  "cwd": "/workspace/scratch/4f75d3fd397b/oxford-core-vocabulary",
+  "database_was_absent": true,
+  "temporary_database": "/tmp/ocv-go-run-smoke-y9j169qg/fresh-learning.db",
+  "source_html_bytes": 128443,
+  "startup_seconds": 0.212,
+  "health": {
+    "corpus_count": 6100,
+    "ok": true
+  },
+  "served_html_bytes": 128443,
+  "html_byte_identical": true,
+  "html_sha256": "caaf7914bc2c8673d2979ed43c05cb7de1e5cad5cde96f1883b36208a63a3b95",
+  "content_type": "text/html; charset=utf-8",
+  "application_tables": [
+    "action_logs",
+    "attempt_logs",
+    "collection_items",
+    "collections",
+    "question_specs",
+    "session_questions",
+    "sessions"
+  ],
+  "table_count": 7,
+  "action_columns": [
+    "action_id",
+    "occurred_at",
+    "activity_id",
+    "screen",
+    "event",
+    "target",
+    "value",
+    "session_id",
+    "attempt_id"
+  ],
+  "action_column_count": 9,
+  "integrity_check": "ok",
+  "shutdown": {
+    "method": "SIGINT to isolated go run process group (Ctrl+C semantics)",
+    "go_run_exit_code": 1,
+    "seconds": 0.016,
+    "server_stopped": true,
+    "post_stop_connection_error": "<urlopen error [Errno 111] Connection refused>",
+    "go_run_exit_code_note": "Go 1.24.9 cmd/go/internal/work/exec.go sets exit status 1 when its build/run scheduler receives base.Interrupted. SIGINT to the isolated process group stopped the application; a wrapper status of 1 does not invalidate the verified startup or graceful interrupt path."
+  },
+  "server_log": "2026/11/04 23:39:33 Oxford Core Vocabulary v1.0 at http://127.0.0.1:59207 | Corpus 6100 rows | Cloze 6100 eligible | DB /tmp/ocv-go-run-smoke-y9j169qg/fresh-learning.db\n",
+  "elapsed_seconds": 0.231,
+  "temporary_database_removed_after_test": true,
+  "harness_assumption_failure": "Unexpected go run shutdown code: 1",
+  "checks": {
+    "single_go_command_startup": "PASS",
+    "health": "PASS",
+    "current_html_exact_bytes": "PASS",
+    "fresh_sqlite_seven_tables": "PASS",
+    "nine_action_columns": "PASS",
+    "sqlite_integrity": "PASS",
+    "SIGINT_shutdown_and_closed_listener": "PASS",
+    "go_wrapper_exit_status": "1; interrupted go run wrapper, documented"
+  },
+  "first_harness_listener_cleanup_check": {
+    "checked_at": "2026-11-04T14:41:45.339844+00:00",
+    "address": "127.0.0.1:42525",
+    "connect_ex_code": 111,
+    "socket_error": "ECONNREFUSED",
+    "listener_remaining": false,
+    "action": "none; original test listener is already stopped"
+  }
+}

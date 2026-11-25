@@ -1,0 +1,104 @@
+{
+  "verified_at_utc": "2026-11-04T14:40:06.071669+00:00",
+  "method": "Manual UI operations through CUA Chromium and native pointer/keyboard; no external browser automation",
+  "latest_html_sha256": "caaf7914bc2c8673d2979ed43c05cb7de1e5cad5cde96f1883b36208a63a3b95",
+  "narrow_layout": {
+    "method": "Chromium zoom 400%",
+    "css_width": 340,
+    "css_height": 234,
+    "physical_mobile": false,
+    "touch_emulation": false,
+    "restriction": "DevTools emulation blocked by organization policy"
+  },
+  "checks": [
+    {
+      "id": "hero_search",
+      "result": "passed",
+      "observed": "Cold reload then full-width ＢＡＮＫ Enter -> Dictionary retains exact query, 7 records; B -> 2; X -> 0."
+    },
+    {
+      "id": "ten_views",
+      "result": "passed_with_scope_limit",
+      "observed": "All 10 views navigated via UI at PC width and 340 CSS px browser zoom. Width only; physical mobile not tested."
+    },
+    {
+      "id": "word_recall",
+      "result": "passed",
+      "observed": "Both directions, correct/wrong/Unknown, four-candidate feedback. NULL, 0 and 100 Confidence persisted."
+    },
+    {
+      "id": "cloze",
+      "result": "passed",
+      "observed": "ABANDON input accepted for abandon span, original case retained. Explicit Unknown saved in another session."
+    },
+    {
+      "id": "reading",
+      "result": "passed_with_scope_limit",
+      "observed": "Both presentations; PC ArrowLeft/Enter and mouse pointer drags feed shared self-rating. Approx 25 CSS px drag cancels, approx 200 CSS px right/left selects only; Submit commits. Actual touch unverified."
+    },
+    {
+      "id": "draft_resize",
+      "result": "passed",
+      "observed": "At question 2/2 self-rating 0 and Confidence 0 remained after changing browser CSS width from 340 to PC."
+    },
+    {
+      "id": "session_completion",
+      "result": "passed",
+      "observed": "Next/Previous did not count as answers. Unknown counts. All positions finalized -> Completed."
+    },
+    {
+      "id": "review_resume",
+      "result": "passed",
+      "observed": "Unknown+A -> all right, X -> zero. Resume session 00000003 after Data navigation retained same question and zero answers."
+    },
+    {
+      "id": "historical_review",
+      "result": "passed",
+      "observed": "area wrong then correct both retained; Incorrect+A still one eligible question."
+    },
+    {
+      "id": "vocabulary_collection",
+      "result": "passed",
+      "observed": "Duplicate warning shown, explicit duplicate registration creates separate item, deleting one leaves the other."
+    },
+    {
+      "id": "question_collection",
+      "result": "passed",
+      "observed": "QA questions -> practice -> Word Recall -> Review reused artistic question_id 2 in new session 9."
+    },
+    {
+      "id": "data",
+      "result": "passed",
+      "observed": "11 attempts, 8 objective attempts, 5 correct -> 62.5%; 2 Unknown; Reading1/2 separate; NULL/0/100, timestamps and unknown duration shown. Unknown filter -> 2 records."
+    },
+    {
+      "id": "action_log",
+      "result": "passed",
+      "observed": "Pending event indicator drains on flush. Data displays occurrence times and Attempt links. session_start filter returned 9 actions."
+    },
+    {
+      "id": "first_start_after_count",
+      "result": "passed",
+      "observed": "Immediately fill count then single Start click opened requested session after count-change fix."
+    },
+    {
+      "id": "coming_soon",
+      "result": "passed",
+      "observed": "Sentence Generation displays Coming soon... only."
+    },
+    {
+      "id": "application_console",
+      "result": "passed_with_scope_limit",
+      "observed": "No application-URL error entries among last 50 error log entries captured at final check; not an exhaustive history assertion."
+    }
+  ],
+  "limitations": [
+    "No physical mobile or mobile Safari test",
+    "No real touch swipe or device rotation test",
+    "No physical gamepad",
+    "No Tailnet deployment",
+    "No installed PWA test",
+    "No macOS or Windows runtime execution"
+  ],
+  "note": "Browser checks were run over successive builds. Final changes were isolated count-change, action event filter and Hero bootstrap fixes, and each affected interaction was rechecked on the updated build. Core paths also verified against final binary by independent API suite."
+}

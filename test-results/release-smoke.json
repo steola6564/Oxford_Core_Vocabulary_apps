@@ -1,0 +1,45 @@
+{
+  "tested_at_utc": "2026-11-04T14:43:30.992091+00:00",
+  "scope": "Release payload extracted from ZIP; final archive additionally contains this report and an updated checksum manifest. Executable, HTML and Corpus bytes remain identical.",
+  "checks": {
+    "zip_crc": "passed",
+    "one_production_html": "passed",
+    "no_test_learning_db": "passed",
+    "csv_check": "passed",
+    "extracted_binary_startup": "passed",
+    "html_exact_bytes": "passed",
+    "fresh_database_seven_tables": "passed",
+    "action_nine_columns": "passed"
+  },
+  "corpus_check": {
+    "cloze_eligible": 6100,
+    "cloze_skipped": 0,
+    "count": 6100,
+    "expected_sha256": "9c871e809b082836339c665aa611476602301f3e6425eca0ded34185d8093f72",
+    "matches_reference": true,
+    "sha256": "9c871e809b082836339c665aa611476602301f3e6425eca0ded34185d8093f72"
+  },
+  "startup_seconds": 0.061,
+  "health": {
+    "corpus_count": 6100,
+    "ok": true
+  },
+  "tables": [
+    "action_logs",
+    "attempt_logs",
+    "collection_items",
+    "collections",
+    "question_specs",
+    "session_questions",
+    "sessions"
+  ],
+  "learning_attempts_on_fresh_start": 0,
+  "server_log": "2026/11/04 14:43:31 Oxford Core Vocabulary v1.0 at http://127.0.0.1:60037 | Corpus 6100 rows | Cloze 6100 eligible | DB data/learning.db\n",
+  "server_exit_code": 0,
+  "sha256": {
+    "bin/oxford-core-linux-amd64": "59fd861d8abdd4614a29e9131e92f6035b64099bacad90037acb79423c59325b",
+    "web/index.html": "caaf7914bc2c8673d2979ed43c05cb7de1e5cad5cde96f1883b36208a63a3b95",
+    "data/all_with_ID.csv": "9c871e809b082836339c665aa611476602301f3e6425eca0ded34185d8093f72"
+  },
+  "status": "passed"
+}

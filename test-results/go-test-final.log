@@ -1,0 +1,18 @@
+=== RUN   TestFilterSpecificationExamples
+--- PASS: TestFilterSpecificationExamples (0.00s)
+=== RUN   TestMalformedFilterSpecifications
+--- PASS: TestMalformedFilterSpecifications (0.00s)
+=== RUN   TestCSVCorpusAndSearchSemantics
+--- PASS: TestCSVCorpusAndSearchSemantics (0.04s)
+=== RUN   TestClozeSpansAndOriginalSurfaceForms
+--- PASS: TestClozeSpansAndOriginalSurfaceForms (0.04s)
+=== RUN   TestAttemptsAreAtomicAndNullable
+--- PASS: TestAttemptsAreAtomicAndNullable (0.03s)
+=== RUN   TestHistoryConstraintsUseOneAttempt
+--- PASS: TestHistoryConstraintsUseOneAttempt (0.00s)
+=== RUN   TestUsageHasKnownPairsAndUnknownEnds
+--- PASS: TestUsageHasKnownPairsAndUnknownEnds (0.00s)
+=== RUN   TestSevenTablesNineActionColumns
+--- PASS: TestSevenTablesNineActionColumns (0.04s)
+PASS
+ok  	oxford-core-vocabulary	0.154s
